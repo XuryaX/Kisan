@@ -1,1 +1,1 @@
-web: gunicorn Kisan.wsgi --log-file -
+web: python manage.py migrate
