@@ -1,0 +1,79 @@
+#header {
+    height: 20%;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#content {
+    height: auto;
+    position: relative;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+}
+
+#loginContainer {
+    width: 350px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: -70px 0 0 -170px;
+}
+
+#regContainer {
+    width: 350px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: -70px 0 0 -170px;
+}
+
+#contentContainer {
+    width: 350px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: -70px 0 0 -170px;
+}
+
+#register {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.left {
+    position: absolute;
+}
+
+.right {
+    position: absolute;
+    top: 37%;
+    right: 33%;
+    margin: -70px 0 0 -170px;
+}
+
+#login {
+    width: 200px;
+}
